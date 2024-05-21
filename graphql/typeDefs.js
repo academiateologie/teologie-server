@@ -2,6 +2,7 @@ const typeDefs = `
   type Post {
     id: String,
     text_title: String,
+    text_subtitle: String,
     slug_text: String,
     date_created: String,
     post_img: String
@@ -16,16 +17,3 @@ const typeDefs = `
 `;
 
 module.exports = typeDefs;
- //      block: String ,
-    //      floor: String ,
-    //      room: String ,
-    //      living__space: Float ,
-    //      total__area: Float ,
-    //      url__gen: String ,
-    //      url__3d: String ,
-    // url__schema: String ,
-    // populare: Boolean 
-
-      // getPlan(id: String!): Plan
-    // getPlanByFloor(floor: String!): [Plan!]!
-    // getPlanByPopulare(populare: Boolean!): [Plan!]!
