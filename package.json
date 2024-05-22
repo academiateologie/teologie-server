@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
     "dev:start": "concurrently 'npm run dev' "
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "graphql": "^16.8.1",
     "graphql-tag": "^2.12.6",
     "mongodb": "^6.6.2",
-    "mongoose": "^8.4.0"
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0"
   }
 }

@@ -6,7 +6,7 @@ const typeDefs = `
     slug_text: String,
     date_created: String,
     post_img: String
-    description_text: String
+    description_text: [String]
     post_img_collection: [String]
   }
 
