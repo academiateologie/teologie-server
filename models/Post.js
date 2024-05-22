@@ -1,7 +1,9 @@
+const { GraphQLID } = require("graphql");
 const mongoose = require("mongoose");
 
 const PostSchema = new mongoose.Schema({
-  id: { type: String },
+  _id: mongoose.Schema.Types.ObjectId,
+  id: String,
   text_title: { type: String },
   text_subtitle: { type: String },
   slug_text: { type: String },

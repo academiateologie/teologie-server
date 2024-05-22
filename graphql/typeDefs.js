@@ -1,5 +1,6 @@
 const typeDefs = `
   type Post {
+    _id: ID,
     id: String,
     text_title: String,
     text_subtitle: String,
@@ -12,7 +13,7 @@ const typeDefs = `
 
   type Query {
     getPosts: [Post]
-    getPost(id: String!): Post
+    getPost(id: String): Post
   }
 `;
 
